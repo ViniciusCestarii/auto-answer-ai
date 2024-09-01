@@ -90,13 +90,14 @@ fetch(apiEndpoint, {
           input.click()
         }
       })
-    }
 
-    allInputs.forEach(input => {
-      if (input.name?.includes("next") && input.value === "Próxima página") {
-        input.click()
-      }
-    })
+
+      allInputs.forEach(input => {
+        if (input.name?.includes("next") && input.value === "Próxima página") {
+          input.click()
+        }
+      })
+    }
   })
   .catch(error => {
     console.error('Error:', error)
