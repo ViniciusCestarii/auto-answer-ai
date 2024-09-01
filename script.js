@@ -1,4 +1,4 @@
-// Copy and paste this code on console to run
+// Copy and paste this code on console of your browser devtool to run
 
 // config
 const apiKey = 'APIKEY'
