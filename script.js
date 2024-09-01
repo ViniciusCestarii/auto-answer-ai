@@ -10,7 +10,7 @@ const element = document.querySelector('.formulation.clearfix')
 let userPrompt = element?.innerHTML.trim()
 
 if (!userPrompt) {
-  console.error("Não foi possível achar a questão")
+  throw new Error("Não foi possível achar a questão")
 }
 
 userPrompt += "\n Cite apenas qual é a opção correta (A, B, C, D ou E) dessa forma: RESPOSTA CORRETA: A."
